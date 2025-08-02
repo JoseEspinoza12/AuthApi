@@ -219,7 +219,7 @@ namespace AuthAPI.Controllers
 
             
             //var request = new RestRequest();
-            //request.AddHeader("Authorization", "Bearer 156f0e85049e29561fd2e8d555bb3b61");
+            //request.AddHeader("Authorization", "Bearer Esto sera eliminado por que me lo cuenta como filtracion confidencial");
             //request.AddHeader("Content-Type", "application/json");
             // request.AddParameter("application/json", "{\"from\":{\"email\":\"hello@patozzz.com\",\"name\":\"Mailtrap Test\"},\"to\":[{\"email\":\"patozzzjuega@gmail.com\"}],\"template_uuid\":\"238373b1-d7e3-4a46-bf15-da19a69a34bb\",\"template_variables\":{\"user_email\":\"Test_User_email\",\"pass_reset_link\":\"Test_Pass_reset_link\"}}", ParameterType.RequestBody);
             //var response = client.Post(request);
@@ -233,7 +233,7 @@ namespace AuthAPI.Controllers
                 RequestFormat = DataFormat.Json
             };
 
-            request.AddHeader("Authorization", "Bearer 83b722b8dd9e9849a2c59ac27c503e43");
+            request.AddHeader("Authorization", "Bearer ------------------------e43");
             request.AddJsonBody(new
             {
                 from = new { email = "hello@patozzz.com" },
